@@ -42,9 +42,10 @@ public class Magpie2
 		{
 			response = "Tell me more about your family.";
 		}
+		//else if (statement.indexOf("teacher
 		else
 		{
-			response = getRandomResponse();
+			System.out.println("I don't know what you mean");
 		}
 		return response;
 	}
@@ -76,7 +77,6 @@ public class Magpie2
 		{
 			response = "You don't say.";
 		}
-
 		return response;
 	}
 }
